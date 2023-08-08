@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaHtml5, FaCss3, FaJs, FaReact, FaWordpress, FaNodeJs } from 'react-icons/fa';
-import { SiNextdotjs, SiShopify, SiTypescript, SiCypress, SiSelenium, SiJasmine, SiJest } from 'react-icons/si';
-import { FaGolang, FaRust } from 'react-icons/fa6';
+import { SiNextdotjs, SiShopify, SiTypescript, SiAmazonec2 } from 'react-icons/si';
+import { FaGolang, FaRust, FaAws, FaInfinity, FaCloud } from 'react-icons/fa6';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../../variants';
 import { NextSeo } from 'next-seo';
@@ -39,12 +39,12 @@ const aboutData = [
 			},
 			{
 				id: 33,
-				title: 'Testing',
+				title: 'DevOps',
 				icons: [
-					<SiCypress key={1012} />,
-					<SiSelenium key={1013} />,
-					<SiJasmine key={1014} />,
-					<SiJest key={1015} />,
+					<FaAws key={1012} />,
+					<SiAmazonec2 key={1013} />,
+					<FaCloud key={1014} />,
+					<FaInfinity key={1015} />,
 				],
 			},
 		],
