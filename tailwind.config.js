@@ -23,10 +23,10 @@ module.exports = {
         accent: '#F13024',
       },
       backgroundImage: {
-        explosion: 'url("https://kcrehberg.github.io/portfolio/bg-explosion.png")',
-        circles: 'url("https://kcrehberg.github.io/portfolio/bg-circles.png")',
-        circleStar: 'url("https://kcrehberg.github.io/portfolio/circle-star.svg")',
-        site: 'url("https://kcrehberg.github.io/portfolio/site-bg.svg")',
+        explosion: 'url("https://kcrehberg.dev/bg-explosion.png")',
+        circles: 'url("https://kcrehberg.dev/bg-circles.png")',
+        circleStar: 'url("https://kcrehberg.dev/circle-star.svg")',
+        site: 'url("https://kcrehberg.dev/site-bg.svg")',
       },
       animation: {
         'spin-slow': 'spin 6s linear infinite',
