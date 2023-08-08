@@ -33,15 +33,12 @@ const Home = () => {
 							Passionate full-stack web developer with a flair for crafting seamless digital experiences. From front-end magic to back-end mastery,
 							I bring creativity and precision to every line of code, delivering innovative solutions for the web.
 						</motion.p>
-						<div className='flex justify-center xl:hidden relative'>
-							<ProjectsBtn />
-						</div>
 						<motion.div
 							variants={fadeIn('down', 0.4)}
 							initial='hidden'
 							animate='show'
 							exit='hidden'
-							className="hidden xl:flex"
+							className="hidden md:flex"
 						>
 							<ProjectsBtn />
 						</motion.div>
