@@ -6,9 +6,12 @@ const Header = () => {
 		<header className='absolute z-30 w-full flex items-center px-16 xl:px-0 xl:h-[90px]'>
 			<div className='container mx-auto'>
 				<div className='flex flex-col lg:flex-row justify-between items-center gap-y-6 py-8'>
-					<Link href='/' className='text-3xl'>
-						Kevin C<span className='text-accent'>.</span> Rehberg
-					</Link>
+					<div className='flex justify-center items-center'>
+						<img className='rounded-full mr-4' src='https://kcrehberg.dev/me.jpg' alt="a picture of Kevin Rehberg" width={50} height={50} />
+						<Link href='/' className='text-3xl whitespace-nowrap'>
+							Kevin C<span className='text-accent'>.</span> Rehberg
+						</Link>
+					</div>
 
 					<Socials />
 				</div>
