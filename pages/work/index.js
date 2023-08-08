@@ -22,7 +22,7 @@ const Work = () => {
 								initial='hidden'
 								animate='show'
 								exit='hidden'
-								className='h2 xl:mt-12'
+								className='h2 mt-12 md:mt-0 xl:mt-12'
 							>
 								My work <span className='text-accent'>.</span>
 							</motion.h2>
@@ -31,7 +31,7 @@ const Work = () => {
 								initial='hidden'
 								animate='show'
 								exit='hidden'
-								className='mb-4 max-w-[400px] mx-auto lg:mx-0'
+								className='hidden md:block mb-4 max-w-[400px] mx-auto lg:mx-0'
 							>
 								From concept to deployment, my portfolio encapsulates the journey of crafting and refining
 								innovative web solutions, harnessing the potential of modern software tools, libraries and frameworks.

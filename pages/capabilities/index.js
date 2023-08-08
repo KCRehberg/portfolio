@@ -16,7 +16,7 @@ const Capabilities = () => {
 							initial='hidden'
 							animate='show'
 							exit='hidden'
-							className='h2 xl:mt-8'
+							className='h2 mt-12 lg:mt-0 xl:mt-8'
 						>
 							My Capabilities<span className='text-accent'>.</span>
 						</motion.h2>
@@ -25,7 +25,7 @@ const Capabilities = () => {
 							initial='hidden'
 							animate='show'
 							exit='hidden'
-							className='mb-4 max-w-[400px] mx-auto lg:mx-0'
+							className='hidden md:block mb-4 max-w-[400px] mx-auto lg:mx-0'
 						>
 							In the ever-evolving landscape of web development, I stay ahead by continuously acquiring new skills,
 							exploring emerging trends, and eagerly embracing fresh challenges.

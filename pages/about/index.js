@@ -105,7 +105,7 @@ const About = () => {
 							initial='hidden'
 							animate='show'
 							exit='hidden'
-							className='h2'
+							className='h2 mt-5 md:mt-0'
 						>
 							Bridging the Gap Between <span className='text-accent'>Design</span> and <span className='text-accent'>Functionality</span>
 						</motion.h2>
@@ -114,7 +114,7 @@ const About = () => {
 							initial='hidden'
 							animate='show'
 							exit='hidden'
-							className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'
+							className='hidden sm:block max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'
 						>
 							6 Years ago I began my journey as a Web Developer and Programmer. Since then I&apos;ve built and managed wordpress websites
 							for clients, contributed to a large variety of software challenges for a web3 start up, and programmed countless of my own personal projects.

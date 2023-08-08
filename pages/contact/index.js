@@ -44,7 +44,7 @@ const Contact = () => {
 							initial='hidden'
 							animate='show'
 							exit='hidden'
-							className='h2 text-center mb-12'
+							className='h2 text-center mb-4 mt-8 md:mb-12 md:mt-0'
 							onSubmit={handleSubmit}
 						>
 							Let&apos;s <span className='text-accent'>connect.</span>
@@ -54,7 +54,7 @@ const Contact = () => {
 							initial='hidden'
 							animate='show'
 							exit='hidden'
-							className='flex-1 flex flex-col gap-6 w-full mx-auto'
+							className='flex-1 flex flex-col gap-3 md:gap-6 w-full mx-auto'
 							onSubmit={handleSubmit}
 							onChange={(e) => setBody({ ...body, [e.target.name]: e.target.value })}
 						>
