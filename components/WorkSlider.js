@@ -13,14 +13,14 @@ const workSlides = {
 			images: [
 				{
 					title: 'title',
-					path: 'https://kcrehberg.dev/da-home.png',
-					link: 'https://www.divineanarchy.com',
+					path: 'https://kcrehberg.dev/da-dapp.png',
+					link: 'https://beta.divineanarchy.com/',
 					id: 110,
 				},
 				{
 					title: 'title',
-					path: 'https://kcrehberg.dev/da-gallery-light.png',
-					link: 'https://www.divineanarchy.com/gallery',
+					path: 'https://kcrehberg.dev/dapp-fusion.png',
+					link: 'https://beta.divineanarchy.com/',
 					id: 111,
 				},
 				{
@@ -42,15 +42,9 @@ const workSlides = {
 			images: [
 				{
 					title: 'title',
-					path: 'https://kcrehberg.dev/parking-app-home.png',
-					link: 'https://app.aegisparking.com/',
-					id: 114,
-				},
-				{
-					title: 'title',
-					path: 'https://kcrehberg.dev/parking-app-success.png',
-					link: 'https://app.aegisparking.com/',
-					id: 115,
+					path: 'https://kcrehberg.dev/da-home.png',
+					link: 'https://www.divineanarchy.com/',
+					id: 117,
 				},
 				{
 					title: 'title',
@@ -60,9 +54,15 @@ const workSlides = {
 				},
 				{
 					title: 'title',
-					path: 'https://kcrehberg.dev/ecsr-home.png',
-					link: 'https://www.eastcoastsurfacerestoration.com/',
-					id: 117,
+					path: 'https://kcrehberg.dev/parking-app-home.png',
+					link: 'https://app.aegisparking.com/',
+					id: 114,
+				},
+				{
+					title: 'title',
+					path: 'https://kcrehberg.dev/parking-app-success.png',
+					link: 'https://app.aegisparking.com/',
+					id: 115,
 				},
 			],
 			id: 101,
