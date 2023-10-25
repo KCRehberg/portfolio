@@ -88,8 +88,8 @@ const WorkSlider = () => {
 								return (
 									<div key={image.id} onClick={() => window.open(image.link)} className='relative rounded-lg overflow-hidden flex items-center justify-center group'>
 										<div className='flex items-center justify-center relative overflow-hidden'>
-											<img src={image.path} alt={image.title} width={500} height={300} />
-											<div className='absolute inset-0 bg-gradient-to-l from-transparent via-[#e838cc] to-[#4a22bd] opacity-0 group-hover:opacity-80 transition-all duration-700' />
+											<img src={image.path} alt={image.title} className='rounded-lg' />
+											<div className='absolute inset-0 bg-gradient-to-l from-transparent via-[#e838cc] to-[#4a22bd] opacity-0 group-hover:opacity-80 transition-all duration-700 rounded-lg' />
 											<div className='absolute bottom-0 translate-y-full group-hover:-translate-y-10 group-hover:xl:-translate-y-20 transition-all duration-300'>
 												<div className='flex items-center gap-x-2 text-[13px] tracking-[0.2em]'>
 													<div className='delay-100'>LIVE</div>
